@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(69, 165, 175);
+     display: flex; 
+     margin: auto;
+     margin-top: 2vw;
+    align-items: center;
+    flex-direction: column;
+
+}
+.div2{
+    /* background-color: wheat; */
+    padding: 0vh 10vh 10vh 10vh;
+    border: 1px solid black;
+min-height: 30vw;
+background-color: whitesmoke;
+}
+h1{
+display: flex;
+justify-content: center;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div1 label{
+    padding-top: 3vh;
+    font-size: 4vh;
+}
+.div1 input{
+    width: 26vw;
+    height: 2vw;
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+
+.div1 button{
+    padding: 1.5vh;
+    margin: 5vh;
+    font-size: 2vh;
+}
+.div1 button:hover{
+    color: rgb(213, 225, 213);
+    background-color: darkgreen;
+}
+#output-div{
+    padding: 4vh;
+    font-size: 5vh;
+    color: rgb(12, 162, 162);
+    font-weight: bolder;
+}
